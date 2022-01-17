@@ -1,0 +1,40 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .over-h {
+        overflow: hidden
+    }
+
+    .over-a {
+        overflow: none
+    }
+
+    .links_navbar {
+        @apply text-blue-100 text-lg hover:text-blue-300 transition
+    }
+
+    .shadow-p {
+        box-shadow: 0 0 10px rgba(1, 30, 46, 0.5);
+    }
+    
+    .shadow-ph{
+        box-shadow: 0 0 15px rgba(1, 30, 46, 0.7);
+    }
+
+    .trans {
+        transition: .2s
+    }
+
+    /* .card_main {
+        @apply 
+    } */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
