@@ -13,6 +13,8 @@
         overflow: none
     }
 
+    
+
     .links_navbar {
         @apply text-blue-100 text-lg hover:text-blue-300 transition
     }
@@ -38,3 +40,6 @@ html {
     scroll-behavior: smooth;
 }
 
+.off_navbar {
+    width: 0px;
+}
